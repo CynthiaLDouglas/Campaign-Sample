@@ -1,0 +1,255 @@
+@import url('https://rtr-prod-assets.s3.amazonaws.com/css/VLP.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+main {
+    /* background-color: #fff; */
+    /* To update background color */
+    background-image: url('https://cdn.crowdability.com/events/202302msa/000-Background.png');
+    background-size: cover;
+    background-position: center center;
+    /* To update background image */
+    color: #000;
+    font-weight: 800;
+}
+
+.main-content {
+    border-bottom: red 10px solid;
+}
+
+.video-player, .main-content section {
+    max-width: 55vw;
+}
+
+.video-player {
+    margin: 0 auto 10px;
+    -webkit-box-shadow: 15px 13px 37px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 13px 37px -4px rgba(0,0,0,0.75);
+box-shadow: 15px 13px 37px -4px rgba(0,0,0,0.75);
+}
+section .puppet {
+    position:absolute; 
+    width: 100%;
+    max-width: 300px;
+    top: 10%;
+    left: -25px;
+}
+.main-content section {
+    width: 100%;
+    /* Sans serif font */
+    font-family: "Montserrat", sans-serif;
+    /* Serif font */
+    /* font-family: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif; */
+}
+
+.main-content h1 {
+    /* update */
+    color: red;
+    /* Sans Serif Font */
+    font-size: 3rem;
+    font-weight: 900;
+    /* Serif Font */
+    /* font-size: 2.81rem;  */
+    margin: 10px auto;
+}
+
+.main-content h2 {
+    /* update */
+    color: #fff;
+    /* Sans Serif Font */
+    font-size: 1.6rem;
+    /* Serif Font */
+    /* font-size: 2.127rem; */
+    margin: 5px auto;
+}
+
+.main-content h3 {
+    /* update */
+    
+    /* Sans Serif Font */
+    font-size: 1.872rem;
+    /* Serif Font */
+    /* font-size: 1.73rem; */
+    margin: 5px auto;
+}
+
+.main-content h4 {
+    /* update */
+    color: #fff;
+    /* Sans Serif Font */
+    font-size: 1.5rem;
+    /* Serif Font */
+    /* font-size: 1.25rem;  */
+    margin: 5px auto;
+}
+
+.main-content h5 {
+    /* update */
+    margin: 5px auto;
+}
+
+.main-content h6 {
+    /* update */
+    margin: 5px auto;
+}
+
+/* .main-content ul {
+}
+
+.main-content li {
+}
+
+.main-content p {
+} */
+.gradient-button {
+    max-width: 300px;
+    font-size: 3rem;
+    
+}
+.gradient-button-1 {
+    background-color: #c00000;
+    border: #b90000 solid 1px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1280px) {
+    .video-player, .main-content section {
+        max-width: 50vw;
+    }
+    .main-content h1 {
+        font-size: 3.45rem;
+    }
+    
+    .main-content h2 {
+        font-size: 1.85rem;
+    }
+    section .puppet {
+        max-width: 300px;
+    }
+    footer p {
+        font-size: 1.5rem;
+    }
+    section .puppet {
+        max-width: 350px;
+        top:8%;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .main-content h1 {
+        font-size: 3.65rem;
+    }
+    
+    .main-content h2 {
+        font-size: 1.95rem;
+    }
+    section .puppet {
+        max-width: 350px;
+        top:8%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .main-content h1 {
+        font-size: 3.9rem;
+    }
+    
+    .main-content h2 {
+        font-size: 2rem;
+    }
+    section .puppet {
+        max-width: 450px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .main-content h1 {
+        font-size: 4.25rem;
+    }
+    
+    .main-content h2 {
+        font-size: 2.25rem;
+    }
+    section .puppet {
+        max-width: 500px;
+        top:7%;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .main-content h1 {
+        font-size: 5.2rem;
+    }
+    
+    .main-content h2 {
+        font-size: 2.75rem;
+    }
+    section .puppet {
+        max-width: 600px;
+        top: 6.5%;
+    }
+}
+@media screen and (min-width: 2500px) {
+    .main-content h1 {
+        font-size: 6.75rem;
+    }
+    
+    .main-content h2 {
+        font-size: 3.5rem;
+    }
+    section .puppet {
+        max-width: 700px;
+        left:10px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    section .puppet {
+        display: none;
+    }
+    .main-content h1 {
+        font-size: 3rem;
+    }
+    
+    .main-content h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:576px){
+    section .puppet {
+        display: none;
+    }
+    .main-content h1 {
+        font-size: 3rem;
+    }
+    
+    .main-content h2 {
+        font-size: 2rem;
+    }
+    .video-player, .main-content section {
+        width: 100%;
+        max-width: 90vw;
+    }
+}
+/* End Media Queries */
+
+/* Footer */
+footer {
+    background-color: #343d2e;
+}
+
+footer .col-xs-12 {
+    padding: 1rem 1.4rem
+}
+
+footer p {
+    font-size: 1.25rem;
+    color: #fff;
+    line-height: 1.2;
+}
+
+footer .container {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+@media(min-width: 992px) {
+    footer .container {
+        width: 900px
+    }
+}
